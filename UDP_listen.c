@@ -9,7 +9,11 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 
+/*  
+Tester litt. :)
 
+
+*/
 void* listenAt(int port) {
 	int sock = socket(PF_INET,SOCK_DGRAM,0);
 	struct sockaddr_in sa;
